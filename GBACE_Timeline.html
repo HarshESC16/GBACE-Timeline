@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game Timeline</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('https://i.ytimg.com/vi/2HuU5Wy3Z9w/maxresdefault.jpg') center/cover;
+            padding-top: 20px;
+            color: white;
+        }
+        .border-text, .timeline {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+        }
+        .border-text {
+            font-size: 24px;
+            border: 2px solid rgba(0, 0, 0, 0.9);
+        }
+        .date, .date-box {
+            margin-bottom: 10px;
+            font-size: 20px;
+            text-align: center;
+            width: 300px;
+            border-radius: 5px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 5px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            position: relative; /* For positioning child elements */
+        }
+        .image-container img {
+            width: 300px;
+            height: 300px;
+            object-fit: fill;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            border: 4px solid white;
+        }
+        .currently-playing {
+            position: absolute;
+            top: 10px; /* Adjust as needed */
+            left: 10px; /* Adjust as needed */
+            background: rgba(0, 128, 0, 0.7); /* Green background */
+            color: white; /* White text */
+            font-size: 22px; /* Adjust font size */
+            padding: 5px 10px; /* Add padding */
+            border-radius: 5px; /* Rounded corners */
+            z-index: 1; /* Ensure it appears on top */
+        }
+    </style>
+</head>
+<body>
+    <div class="border-text">GBACE</div>
+    <div class="timeline">
+        <div>On 08/13/2024, Slimkirby draws the first 10 games for the GBACE challenge</div>
+    </div>
+    <div class="image-container">
+        <div><img src="https://assetsio.gnwcdn.com/co21r7.jpg" alt="Example Image 1"><div class="date-box">08/20/2024 - 08/23/2024</div></div>
+        <div><img src="https://i.imgur.com/VWxN3kr.png" alt="Example Image 2"><div class="date-box">08/23/2024 - 08/24/2024</div></div>
+        <div><img src="https://i.imgur.com/yHJFNdv.png" alt="Example Image 3"><div class="date-box">08/24/2024</div></div>
+        <div><img src="https://i.imgur.com/HlB4vAi.png" alt="Example Image 4"><div class="date-box">08/25/2024</div></div>
+        <div><img src="https://i.imgur.com/teLU14T.png" alt="Example Image 5"><div class="date-box">08/27/2024 - 09/08/2024</div></div>
+    </div>
+    <div class="image-container">
+        <div class="currently-playing">Currently Playing</div>
+        <div><img src="https://i.imgur.com/BivjYkk.png" alt="Activision Anthology"><div class="date-box">09/08/2024 - ???</div></div>
+        <div><img src="https://i.imgur.com/H3rxGh8.png" alt="Example Image 7"><div class="date-box">09/17/2024</div></div>
+        <div><img src="https://i.imgur.com/EZTCXtl.png" alt="Example Image 8"><div class="date-box">09/17/2024</div></div>
+        <div><img src="https://i.imgur.com/kajdsew.png" alt="Example Image 9"><div class="date-box">09/20/2024</div></div>
+        <div><img src="https://i.imgur.com/RBZhvCi.png" alt="Example Image 10"><div class="date-box">09/24/2024 - 10/04/2024</div></div>
+    </div>
+    <div class="timeline">
+        <div>On 10/04/2024, Slimkirby draws the next 10 games for the GBACE challenge</div>
+    </div>
+
+   <div class="image-container">
+    <div>
+        <img src="https://i.imgur.com/L0dUncm.png" alt="Example Image 11">
+        <div class="date-box">10/08/2024 - 10/11/2024</div>
+    </div>
+    <div>
+        <div style="position: relative;">
+            <img src="https://i.imgur.com/BSd7uAT.png" alt="Example Image 12">
+            <div class="currently-playing">Currently Playing</div>
+        </div>
+        <div class="date-box">10/11/2024 - ???</div>
+    </div>
+    <div><img src="https://i.imgur.com/VNZqJWg.png" alt="Example Image 13"><div class="date-box">Not Started</div></div>
+    <div><img src="https://i.imgur.com/tnJEFLv.png" alt="Example Image 14"><div class="date-box">Not Started</div></div>
+    <div><img src="https://th.bing.com/th/id/OIP.bcSjL5FCK55uAugw5BVcZAAAAA?rs=1&pid=ImgDetMain" alt="Example Image 15"><div class="date-box">Not Started</div></div>
+</div>
+
+    <div class="image-container">
+        <div><img src="https://assets-prd.ignimgs.com/2022/01/18/advancewars1-sq-1642537108800.jpg" alt="Example Image 16"><div class="date-box">Not Started</div></div>
+        <div><img src="https://th.bing.com/th/id/OIP.6trpU3GDDpYifnI3_D1T2QAAAA?rs=1&pid=ImgDetMain" alt="Example Image 17"><div class="date-box">Not Started</div></div>
+        <div><img src="https://assets-prd.ignimgs.com/2023/03/21/robopon2cross-1679356906865.jpg" alt="Example Image 18"><div class="date-box">Not Started</div></div>
+        <div><img src="https://preview.redd.it/tak-and-the-power-of-juju-gba-v0-drc3nre5p3sb1.png?width=500&format=png&auto=webp&s=826d6c5c709625ff42d59eaa5360c1469da22aa8" alt="Example Image 19"><div class="date-box">Not Started</div></div>
+        <div><img src="https://assets-prd.ignimgs.com/2022/04/22/dbadvanced-1650670998444.jpg" alt="Example Image 20"><div class="date-box">Not Started</div></div>
+    </div>
+</body>
+</html>
